@@ -1,5 +1,6 @@
 ﻿using System.Web.Http;
 using CoreTechs.Logging;
+using CoreTechs.WindowsFirewall.Common;
 using CoreTechs.WindowsFirewall.WebService.Infrastructure;
 
 namespace CoreTechs.WindowsFirewall.WebService

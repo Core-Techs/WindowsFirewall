@@ -79,7 +79,6 @@
   <ItemGroup>
     <Compile Include="FirewallApiType.cs" />
     <Compile Include="FirewallController.cs" />
-    <Compile Include="FirewallPortRequest.cs" />
     <Compile Include="FirewallPortRequestValidator.cs" />
     <Compile Include="FirewallService.cs">
       <SubType>Component</SubType>
@@ -115,6 +114,12 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoreTechs.WindowsFirewall.Common\CoreTechs.WindowsFirewall.Common.csproj">
+      <Project>{9CBB2C0A-418C-4E32-A2ED-4BCFFD3591D4}</Project>
+      <Name>CoreTechs.WindowsFirewall.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

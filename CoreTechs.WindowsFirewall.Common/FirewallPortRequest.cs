@@ -1,4 +1,4 @@
-﻿namespace CoreTechs.WindowsFirewall.WebService
+﻿namespace CoreTechs.WindowsFirewall.Common
 {
     public class FirewallPortRequest
     {
